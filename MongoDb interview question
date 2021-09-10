@@ -1,0 +1,1 @@
+db.users.find({$and: [{"houses": [{"neighborhood":"Uptown"}]}]).pretty()
